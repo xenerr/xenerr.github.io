@@ -109,8 +109,8 @@ a:visited {
   padding: 0;
 }
 .photo {
-    max-width: 53vw;
-    min-width: 420px;
+    max-width: 55vw;
+    min-width: 450px;
     float: right;
     margin-top: 9vw;
     margin-right: 0;
@@ -139,7 +139,7 @@ a:visited {
   position: fixed;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 32px;
   bottom: 3px;
   display: none;
   color: black;
@@ -156,8 +156,8 @@ a:visited {
   position: fixed;
   bottom: 0;
   right: 0;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 32px;
+  line-height: 46px;
 }
 .archive a {
   padding: 0 5px;
@@ -191,7 +191,7 @@ a:visited {
 		padding: 5px 0;
 	}
 }
-/* iphone 6 */
+/* iphone */
 @media all and (max-width: 667px) {
 	body {
 		margin: 15px;
