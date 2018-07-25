@@ -1,7 +1,7 @@
 var photo = $('.grid img');
 photo.each(function(i,e){
   $(this).css({
-    'max-width' : (29 + (Math.random() * 45) + 'vw')
+    'max-width' : (29 + (Math.random() * 37) + 'vw')
   });
 });
 
