@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery('.container').infiniteScroll({
 		path: '.pagination__next',
-		append: '.article',
+		append: 'article',
 		history: false,
 	});
 });
