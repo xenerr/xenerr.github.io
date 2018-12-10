@@ -108,32 +108,32 @@ a:visited {
 	color: purple;
 }
 /* photos */
-.grid {
+.container {
   margin: 0;
   padding: 10px;
 }
 
-.grid .photo.hero img {
+.container .photo.hero img {
 	max-width: 100%;
 }
-.grid .photo.hero {
+.container .photo.hero {
 	display: inline-block;
 }
-.grid .photo .active {
+.container .photo .active {
 	max-width: 100%;
 }
-.grid .event-block {
+.container .event-block {
 	display: inline-block;
 	padding-top: 70px;
 }
-.grid .photo img {
+.container .photo img {
     height: auto !important;
     float: left;
     display: inline;
     max-width: 16.6666%;
     padding: 10px;
 }
-.grid .photo h2 {
+.container .photo h2 {
   display: none;
 }
 /* ipad */
@@ -160,7 +160,7 @@ a:visited {
 	li a {
 		font-size: 16px;
 	}
-	.grid img {
+	.container img {
 		width: 100% !important;
 		min-width: 100% !important;
 		max-width: 100% !important;
@@ -195,7 +195,7 @@ a:visited {
         margin-top: 15px;
         padding: 0;
     }
-    .grid .photo:hover h2 {
+    .container .photo:hover h2 {
         display: none;
     }
 
