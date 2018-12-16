@@ -80,6 +80,8 @@ body {
     line-height: 1.6;
     font-size: 1.5rem;
     margin: 0;
+    background-color: black;
+    color: white;
 }
 /* navigation */
 p {
@@ -90,8 +92,8 @@ h1 {
 	font-size:8.3rem;
 }
 h2 {
-	padding: 70px 10px 10px 10px;
-	font-size: 300%;
+	padding: 10px 10px 10px 10px;
+	font-size: 400%;
 	letter-spacing: 1px;
 }
 h3 {
@@ -115,16 +117,19 @@ a:visited {
 
 .container .photo.hero img {
 	max-width: 100%;
+	width:100%;
 }
 .container .photo.hero {
 	display: inline-block;
 }
 .container .photo .active {
 	max-width: 100%;
+	width:100%;
 }
 .container .event-block {
 	display: inline-block;
-	padding-top: 70px;
+	padding-top: 150px;
+	width: 100%;
 }
 .container .photo img {
     height: auto !important;
