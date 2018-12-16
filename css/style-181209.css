@@ -90,10 +90,11 @@ p {
 }
 h1 {
 	font-size:8.3rem;
+	line-height: 0.5;
 }
 h2 {
 	padding: 10px 10px 10px 10px;
-	font-size: 400%;
+	font-size: 300%;
 	letter-spacing: 1px;
 }
 h3 {
@@ -101,13 +102,24 @@ h3 {
 	font-size: 150%;
 }
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	position: relative;
 	cursor: pointer;
 }
+a:hover {
+	color: blue;
+}
 a:visited {
 	color: purple;
+}
+/* nav */
+.years {
+	padding-top: 35px;
+}
+ul li {
+	display: inline-block;
+	padding: 0 6px;
 }
 /* photos */
 .container {
