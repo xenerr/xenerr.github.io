@@ -1,0 +1,288 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* flexbox stuff */
+html, body {
+	height: 100%;
+}
+body {
+	overflow-x: hidden;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.xenerr-logo {
+	width: 75%;
+	max-width: 1200px;
+	margin: 2% auto;
+	padding: 5px;
+    display: block;
+}
+/* fonts */
+body {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    margin: 0;
+}
+/* navigation */
+p {
+	margin: 0 auto;
+	width:5 0%;
+}
+h1 {
+	font-size:8.3rem;
+}
+h2 {
+	padding: 2.6rem 9rem;
+	font-size: 140%;
+	letter-spacing: 1px;
+}
+h3 {
+	padding: 0 12rem;
+}
+a {
+	color: black;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+a:visited {
+	color: purple;
+}
+/* photos */
+.grid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.month-title {
+	width: auto;
+	height: 85px;
+	display: block;
+	margin: 120px auto 10px auto;
+}
+.photoo img {
+	width: 100%;
+	display: block;
+}
+.photoo {
+	margin: 0 auto 100px auto;
+	width: 60%;
+	display: block;
+	position: relative;
+}
+.photoo::after {
+	content: "";
+	position: absolute;
+	bottom: -36px;
+	right: 0;
+	display: block;
+	background-size: 100% 100%;
+}
+.photoo.paris::after {
+	background-image: url('../2019/paris.jpg');
+	width: 63px;
+	height: 35px;
+}
+.photoo.stockholm::after {
+	background-image: url('../2019/stockholm.jpg');
+	width: 120px;
+	height: 35px;
+}
+.photoo.palmsprings::after {
+	background-image: url('../2019/palmsprings.jpg');
+	width: 135px;
+	height: 35px;
+}
+.photoo.la::after {
+	background-image: url('../2019/la.jpg');
+	width: 131px;
+	height: 35px;
+}
+.photoo.austin::after {
+	background-image: url('../2019/austin.jpg');
+	width: 78px;
+	height: 35px;
+}
+.photoo.budapest::after {
+	background-image: url('../2019/budapest.jpg');
+	width: 117px;
+	height: 35px;
+}
+.photoo.rouen::after {
+	background-image: url('../2019/rouen.jpg');
+	width: 70px;
+	height: 35px;
+}
+.photo {
+    max-width: 55vw;
+    min-width: 450px;
+    float: right;
+    margin-top: 9vw;
+    margin-right: 0;
+}
+.grid .photo img {
+    min-width: 100%;
+    height: auto !important;
+    float: right;
+    display: inline;
+    min-width: 420px;
+}
+.photo.float-left {
+  float: left;
+  margin-left: 0;
+  margin-right: auto;
+  padding-right: 0 !important;
+}
+.grid .photo h2 {
+  left: 5px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  bottom: 3px;
+  display: none;
+  color: black;
+}
+.grid .photo:hover h2 {
+  display: block;
+}
+.archive {
+  float: none;
+  clear: both;
+  padding: 0;
+  margin-right: 8px;
+  text-align: right;
+  position: fixed;
+  bottom: -10px; 
+  right: 0;
+}
+.archive a {
+  padding: 0 5px;
+  color: blue;
+  text-decoration: underline;
+  display: block;
+}
+.archive .active {
+  padding: 0 5px;
+  display: block;
+}
+@media all and (max-width: 769px) {
+	body {
+		margin: 30px;
+	}
+	li {
+		font-size: 16px;
+		border-bottom: 2px solid black;
+		padding: 5px 0;
+	}
+	li a {
+		font-size: 16px;
+	}
+	.archive {
+		padding: 50px 0;
+		margin: 0;
+		text-align: center;
+		position: static;
+		font-size: 22px;
+	}
+	.archive a,
+	.archive .active {
+		display: inline-block;
+	}
+	.grid .month-title:first-child {
+		margin-top: 50px;
+	}
+    .photoo {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto 50px auto;
+    }
+    .xenerr-logo {
+        width: 100%;
+        padding: 0;
+        margin: 5px auto;
+    }
+    .month-title {
+    	width: 50%;
+    	height: auto;
+    }
+    .photoo::after {
+		bottom: -25px;
+	}
+    .photoo.paris::after {
+    	height: 25px;
+		width: 45px;
+	}
+	.photoo.stockholm::after {
+		height: 25px;
+		width: 86px;
+	}
+	.photoo.palmsprings::after {
+		height: 25px;
+		width: 96px;
+	}
+	.photoo.la::after {
+		height: 25px;
+		width: 94px;
+	}
+	.photoo.budapest::after {
+		height: 25px;
+		width: 84px;
+	}
+	.photoo.rouen::after {
+		height: 25px;
+		width: 50px;
+	}
+	.photoo.austin::after {
+		height: 25px;
+		width: 56px;
+	}
+
+}
