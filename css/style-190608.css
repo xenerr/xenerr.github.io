@@ -327,5 +327,66 @@ a:visited {
     	width: 65%;
     	height: auto;
     }
+    .photoo::after {
+    	height: 25px !important;
+    	bottom: -27px;
+    }
+    .photoo.paris::after {
+		width: 45px;
+	}
+	.photoo.stockholm::after {
+		width: 85px;
+	}
+	.photoo.palmsprings::after {
+		width: 96px;
+	}
+	.photoo.la::after {
+		width: 93px;
+	}
+	.photoo.austin::after {
+		width: 55px;
+	}
+	.photoo.budapest::after {
+		width: 83px;
+	}
+	.photoo.rouen::after {
+		width: 50px;
+	}
+	.photoo.picsaintloup::after {
+		width: 97px;
+	}
+	.photoo.saintguilhemledesert::after {
+		width: 194px;
+	}
+	.photoo.montpellier::after {
+		width: 87px;
+	}
+	.photoo.alicante::after {
+		width: 80px;
+	}
+	.photoo.xabia::after {
+		width: 58px;
+	}
+	.photoo.guadalest::after {
+		width: 97px;
+	}
+	.photoo.gotland::after {
+		width: 56px;
+	}
+	.photoo.kungsleden::after {
+		width: 93px;
+	}
+	.photoo.naples::after {
+		width: 55px;
+	}
+	.photoo.capri::after {
+		width: 66px;
+	}
+	.photoo.pompei::after {
+		width: 55px;
+	}
+	.photoo.brittany::after {
+		width: 65px;
+	}
 
 }
