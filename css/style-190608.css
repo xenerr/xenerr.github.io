@@ -225,6 +225,26 @@ a:visited {
 	width: 91px;
 	height: 35px;
 }
+.photoo.helsinki::after {
+	background-image: url('../2019/helsinki.jpg');
+	width: 97px;
+	height: 35px;
+}
+.photoo.newport::after {
+	background-image: url('../2019/newport.jpg');
+	width: 108px;
+	height: 35px;
+}
+.photoo.grandcanyon::after {
+	background-image: url('../2019/grandcanyon.jpg');
+	width: 168px;
+	height: 35px;
+}
+.photoo.moscow::after {
+	background-image: url('../2019/moscow.jpg');
+	width: 105px;
+	height: 35px;
+}
 .photo {
     max-width: 55vw;
     min-width: 450px;
@@ -270,12 +290,6 @@ a:visited {
 }
 .archive img {
 	display: block;
-}
-.archive a {
-  padding: 0 5px;
-  color: blue;
-  text-decoration: underline;
-  display: block;
 }
 .archive .active {
   padding: 0 5px;
@@ -396,6 +410,18 @@ a:visited {
 	}
 	.photoo.maguelone::after {
 		width: 116px;
+	}
+	.photoo.helsinki::after {
+		width: 69px;
+	}
+	.photoo.newport::after {
+		width: 77px;
+	}
+	.photoo.grandcanyon::after {
+		width: 120px;
+	}
+	.photoo.moscow::after {
+		width: 75px;
 	}
 
 }
