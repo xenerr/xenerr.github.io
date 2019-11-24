@@ -175,6 +175,11 @@ a:visited {
 	width: 123px;
 	height: 35px;
 }
+.photoo.maguelone::after {
+	background-image: url('../2019/maguelone.jpg');
+	width: 163px;
+	height: 35px;
+}
 .photoo.alicante::after {
 	background-image: url('../2019/alicante.gif');
 	width: 113px;
@@ -329,7 +334,7 @@ a:visited {
     }
     .photoo::after {
     	height: 25px !important;
-    	bottom: -27px;
+    	bottom: -25px;
     }
     .photoo.paris::after {
 		width: 45px;
@@ -387,6 +392,9 @@ a:visited {
 	}
 	.photoo.brittany::after {
 		width: 65px;
+	}
+	.photoo.maguelone::after {
+		width: 116px;
 	}
 
 }
