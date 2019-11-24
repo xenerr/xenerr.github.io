@@ -385,7 +385,8 @@ a:visited {
 		width: 55px;
 	}
 	.photoo.capri::after {
-		width: 66px;
+		width: 61px;
+		height: 23px;
 	}
 	.photoo.pompei::after {
 		width: 55px;
