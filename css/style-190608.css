@@ -212,8 +212,8 @@ a:visited {
 }
 .photoo.capri::after {
 	background-image: url('../2019/capri.jpg');
-	width: 93px;
-	height: 35px;
+	width: 80px;
+	height: 30px;
 }
 .photoo.pompei::after {
 	background-image: url('../2019/pompei.jpg');
