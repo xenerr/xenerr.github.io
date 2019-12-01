@@ -99,7 +99,6 @@ a:visited {
   padding: 0;
   width: 100%;
   text-align: center;
-  padding-bottom: 1px;
 }
 .month-title {
 	width: auto;
@@ -328,6 +327,8 @@ a:visited {
 }
 .archive img {
 	display: block;
+	width: 120px;
+	height: auto;
 }
 .archive .active {
   padding: 0 5px;
@@ -340,9 +341,6 @@ a:visited {
 	width: 50%;
 }
 @media all and (max-width: 769px) {
-	body {
-		margin: 9px;
-	}
 	li {
 		font-size: 16px;
 		border-bottom: 2px solid black;
@@ -352,28 +350,20 @@ a:visited {
 		font-size: 16px;
 	}
 	.archive {
-		padding: 30px 0;
-		margin: 0;
-		text-align: center;
-		position: static;
-		font-size: 22px;
-	}
-	.archive a,
-	.archive .active {
-		display: inline-block;
+		margin-right: 0;
+		bottom: 5px;
 	}
 	.archive img {
 		display: block;
-		margin: 0 auto;
+		margin: 0;
+		width: 100px;
 	}
 	.grid .month-title:first-child {
 		margin-top: 50px;
 	}
     .photoo {
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
-        margin: 0 auto 50px auto;
+        width: 80%;
+        margin: 0 0 50px 0;
     }
     .xenerr-logo {
         width: 100%;
