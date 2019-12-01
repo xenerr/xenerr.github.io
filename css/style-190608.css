@@ -99,7 +99,7 @@ a:visited {
   padding: 0;
   width: 100%;
   text-align: center;
-
+  padding-bottom: 1px;
 }
 .month-title {
 	width: auto;
@@ -124,91 +124,75 @@ a:visited {
 	right: 0;
 	display: block;
 	background-size: 100% 100%;
+	height: 35px;
 }
 .photoo.paris::after {
 	background-image: url('../2019/paris.jpg');
 	width: 63px;
-	height: 35px;
 }
 .photoo.stockholm::after {
 	background-image: url('../2019/stockholm.jpg');
 	width: 120px;
-	height: 35px;
 }
 .photoo.palmsprings::after {
 	background-image: url('../2019/palmsprings.jpg');
 	width: 135px;
-	height: 35px;
 }
 .photoo.la::after {
 	background-image: url('../2019/la.jpg');
 	width: 131px;
-	height: 35px;
 }
 .photoo.austin::after {
 	background-image: url('../2019/austin.jpg');
 	width: 78px;
-	height: 35px;
 }
 .photoo.budapest::after {
 	background-image: url('../2019/budapest.jpg');
 	width: 117px;
-	height: 35px;
 }
 .photoo.rouen::after {
 	background-image: url('../2019/rouen.jpg');
 	width: 70px;
-	height: 35px;
 }
 .photoo.picsaintloup::after {
 	background-image: url('../2019/picsaintloup.jpg');
 	width: 138px;
-	height: 35px;
 }
 .photoo.saintguilhemledesert::after {
 	background-image: url('../2019/saintguilhemledesert.gif');
 	width: 274px;
-	height: 35px;
 }
 .photoo.montpellier::after {
 	background-image: url('../2019/montpellier.jpg');
 	width: 123px;
-	height: 35px;
 }
 .photoo.maguelone::after {
 	background-image: url('../2019/maguelone.jpg');
 	width: 163px;
-	height: 35px;
 }
 .photoo.alicante::after {
 	background-image: url('../2019/alicante.gif');
 	width: 113px;
-	height: 35px;
 }
 .photoo.xabia::after {
 	background-image: url('../2019/xabia.gif');
 	width: 82px;
-	height: 35px;
 }
 .photoo.guadalest::after {
 	background-image: url('../2019/guadalest.gif');
 	width: 138px;
-	height: 35px;
 }
 .photoo.gotland::after {
 	background-image: url('../2019/gotland.jpg');
 	width: 79px;
-	height: 35px;
 }
 .photoo.kungsleden::after {
 	background-image: url('../2019/kungsleden.jpg');
 	width: 131px;
-	height: 35px;
 }
 .photoo.naples::after {
 	background-image: url('../2019/naples.jpg');
 	width: 78px;
-	height: 35px;
 }
 .photoo.capri::after {
 	background-image: url('../2019/capri.jpg');
@@ -218,32 +202,86 @@ a:visited {
 .photoo.pompei::after {
 	background-image: url('../2019/pompei.jpg');
 	width: 78px;
-	height: 35px;
 }
 .photoo.brittany::after {
 	background-image: url('../2019/brittany.jpg');
 	width: 91px;
-	height: 35px;
 }
 .photoo.helsinki::after {
 	background-image: url('../2019/helsinki.jpg');
 	width: 97px;
-	height: 35px;
 }
 .photoo.newport::after {
 	background-image: url('../2019/newport.jpg');
 	width: 108px;
-	height: 35px;
 }
 .photoo.grandcanyon::after {
 	background-image: url('../2019/grandcanyon.jpg');
 	width: 168px;
-	height: 35px;
 }
 .photoo.moscow::after {
 	background-image: url('../2019/moscow.jpg');
 	width: 105px;
-	height: 35px;
+}
+.photoo.berlin::after {
+	background-image: url('../2019/berlin.jpg');
+	width: 90px;
+}
+.photoo.madrid::after {
+	background-image: url('../2019/madrid.jpg');
+	width: 109px;
+}
+.photoo.barcelona::after {
+	background-image: url('../2019/barcelona.jpg');
+	width: 140px;
+}
+.photoo.catral::after {
+	background-image: url('../2019/catral.jpg');
+	width: 119px;
+}
+.photoo.valencia::after {
+	background-image: url('../2019/valencia.jpg');
+	width: 134px;
+}
+.photoo.milan::after {
+	background-image: url('../2019/milan.jpg');
+	width: 90px;
+}
+.photoo.cinqueterre::after {
+	background-image: url('../2019/cinqueterre.jpg');
+	width: 178px;
+}
+.photoo.bologna::after {
+	background-image: url('../2019/bologna.jpg');
+	width: 85px;
+}
+.photoo.balaton::after {
+	background-image: url('../2019/balaton.jpg');
+	width: 124px;
+}
+.photoo.london::after {
+	background-image: url('../2019/london.jpg');
+	width: 105px;
+}
+.photoo.tokyo::after {
+	background-image: url('../2019/tokyo.jpg');
+	width: 83px;
+}
+.photoo.osaka::after {
+	background-image: url('../2019/osaka.jpg');
+	width: 95px;
+}
+.photoo.kyoto::after {
+	background-image: url('../2019/kyoto.jpg');
+	width: 75px;
+}
+.photoo.hakone::after {
+	background-image: url('../2019/hakone.jpg');
+	width: 116px;
+}
+.photoo.nara::after {
+	background-image: url('../2019/nara.jpg');
+	width: 94px;
 }
 .photo {
     max-width: 55vw;
@@ -423,5 +461,46 @@ a:visited {
 	.photoo.moscow::after {
 		width: 75px;
 	}
-
+	.photoo.berlin::after {
+		width: 64px;
+	}
+	.photoo.madrid::after {
+		width: 78px;
+	}
+	.photoo.barcelona::after {
+		width: 100px;
+	}
+	.photoo.catral::after {
+		width: 85px;
+	}
+	.photoo.valencia::after {
+		width: 95px;
+	}
+	.photoo.milan::after {
+		width: 64px;
+	}
+	.photoo.cinqueterre::after {
+		width: 127px;
+	}
+	.photoo.bologna::after {
+		width: 62px;
+	}
+	.photoo.london::after {
+		width: 75px;
+	}
+	.photoo.tokyo::after {
+		width: 59px;
+	}
+	.photoo.osaka::after {
+		width: 68px;
+	}
+	.photoo.kyoto::after {
+		width: 54px;
+	}
+	.photoo.hakone::after {
+		width: 83px;
+	}
+	.photoo.nara::after {
+		width: 67px;
+	}
 }
