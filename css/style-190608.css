@@ -282,6 +282,26 @@ a:visited {
 	background-image: url('../2019/nara.jpg');
 	width: 94px;
 }
+.photoo.nyc::after {
+	background-image: url('../2019/nyc.jpg');
+	width: 143px;
+}
+.photoo.tijuana::after {
+	background-image: url('../2019/tijuana.jpg');
+	width: 103px;
+}
+.photoo.aland::after {
+	background-image: url('../2019/aland.jpg');
+	width: 90px;
+}
+.photoo.biarritz::after {
+	background-image: url('../2019/biarritz.jpg');
+	width: 104px;
+}
+.photoo.oslo::after {
+	background-image: url('../2019/oslo.jpg');
+	width: 73px;
+}
 .photo {
     max-width: 55vw;
     min-width: 450px;
@@ -340,7 +360,7 @@ a:visited {
 .about .photoo.about-text img {
 	width: 50%;
 }
-@media all and (max-width: 769px) {
+@media all and (max-width: 1023px) {
 	li {
 		font-size: 16px;
 		border-bottom: 2px solid black;
@@ -493,5 +513,20 @@ a:visited {
 	}
 	.photoo.nara::after {
 		width: 67px;
+	}
+	.photoo.nyc::after {
+		width: 102px;
+	}
+	.photoo.tijuana::after {
+		width: 73px;
+	}
+	.photoo.aland::after {
+		width: 65px;
+	}
+	.photoo.biarritz::after {
+		width: 74px;
+	}
+	.photoo.oslo::after {
+		width: 52px;
 	}
 }
