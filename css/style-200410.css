@@ -609,31 +609,43 @@ display: none;
 	  height: 95px;
 	  padding: 4px;
 	}
+	.photoo {
+        width: 75%;
+        margin: 0 auto 13% auto;
+    }
 }
-@media all and (min-width: 769px) and (max-width: 900px) {
+@media all and (min-width: 768px) and (max-width: 900px) {
 	.letter {
 	  height: 75px;
 	  padding: 4px;
 	}
-	   .logo-container {
+	.logo-container {
 		margin-top: 0;
-		padding: 5%;
+		padding: 5% 5% 7% 5%;
 	}
+	.photoo {
+        width: 75%;
+        margin: 0 auto 13% auto;
+    }
+    .archive {
+    	margin-right: 9px;
+    	bottom: 5px;
+    }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 	li {
 		font-size: 16px;
 		border-bottom: 2px solid black;
 		padding: 5px 0;
 	}
 	li a {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.archive {
 		margin-right: 0;
 		bottom: 3px;
 		right: 3px;
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.countries {
 		font-size: 24px;
@@ -650,11 +662,11 @@ display: none;
   		padding: 0;
   	}
     .photoo::after {
-    	font-size: 14px;
+    	font-size: 15px;
     }
     .logo-container {
 		margin-top: 0;
-		padding: 5% 5% 1% 5%;
+		padding: 5% 5% 7% 5%;
 	}
     /* floating letters */
 	@-webkit-keyframes float {
@@ -776,5 +788,26 @@ display: none;
 @media all and (min-width: 400px) and (max-width: 768px) {
 	.logo-container {
 		padding: 5%;
+	}
+}
+@media all and (min-width: 322px) and (max-width: 530px) {
+	.logo-container {
+		padding: 5%;
+	}
+	.letter {
+		height: 38px;
+	}
+}
+@media all and (max-width: 321px) {
+	.letter {
+  		width: auto;
+  		height: 32px;
+  		padding: 0;
+  	}
+  	.archive {
+		margin-right: 0;
+		bottom: 2px;
+		right: 2px;
+		font-size: 13px;
 	}
 }
