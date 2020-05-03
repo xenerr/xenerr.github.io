@@ -275,7 +275,8 @@ h2 {
 }
 .photoo {
 	margin: 0 auto 100px auto;
-	width: 50%;
+	width: 75%;
+	max-width: 850px;
 	display: block;
 	position: relative;
 }
@@ -519,39 +520,7 @@ h2 {
 .photoo.basel::after {
 	content: "Basel 🇨🇭";
 }
-.photo {
-    max-width: 55vw;
-    min-width: 450px;
-    float: right;
-    margin-top: 9vw;
-    margin-right: 0;
-}
-.grid .photo img {
-    min-width: 100%;
-    height: auto !important;
-    float: right;
-    display: inline;
-    min-width: 420px;
-}
-.photo.float-left {
-  float: left;
-  margin-left: 0;
-  margin-right: auto;
-  padding-right: 0 !important;
-}
-.grid .photo h2 {
-  left: 5px;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  font-size: 28px;
-  bottom: 3px;
-  display: none;
-  color: black;
-}
-.grid .photo:hover h2 {
-  display: block;
-}
+
 .archive {
   float: none;
   clear: both;
@@ -612,10 +581,6 @@ h2 {
 	  height: 95px;
 	  padding: 4px;
 	}
-	.photoo {
-        width: 75%;
-        margin: 0 auto 15% auto;
-    }
 }
 @media all and (min-width: 768px) and (max-width: 900px) {
 	.letter {
