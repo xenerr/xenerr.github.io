@@ -276,7 +276,7 @@ h2 {
 .photoo {
 	margin: 0 auto 100px auto;
 	width: 75%;
-	max-width: 850px;
+	max-width: 900px;
 	display: block;
 	position: relative;
 }
@@ -341,6 +341,13 @@ h2 {
 .photoo.nancy::after {
 	content: "Nancy 🇫🇷";
 }
+.photoo.saint-clement-de-riviere::after {
+	content: "Saint-Clément-de-Rivière 🇫🇷";
+}
+.photoo.montferrier::after {
+	content: "Montferrier-sur-Lez 🇫🇷";
+}
+
 /* 		USA			*/
 .photoo.palmsprings::after {
 	content: "Palm Springs 🇺🇸";
