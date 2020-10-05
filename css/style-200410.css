@@ -347,7 +347,15 @@ h2 {
 .photoo.montferrier::after {
 	content: "Montferrier-sur-Lez 🇫🇷";
 }
-
+.photoo.nice::after {
+	content: "Nice 🇫🇷";
+}
+.photoo.bayonne::after {
+	content: "Bayonne 🇫🇷";
+}
+.photoo.menton::after {
+	content: "Menton 🇫🇷";
+}
 /* 		USA			*/
 .photoo.palmsprings::after {
 	content: "Palm Springs 🇺🇸";
