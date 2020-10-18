@@ -356,6 +356,9 @@ h2 {
 .photoo.menton::after {
 	content: "Menton 🇫🇷";
 }
+.photoo.cassis::after {
+	content: "Cassis 🇫🇷";
+}
 /* 		USA			*/
 .photoo.palmsprings::after {
 	content: "Palm Springs 🇺🇸";
@@ -459,6 +462,22 @@ h2 {
 .photoo.rome::after {
 	content: "Rome 🇮🇹";
 }
+.photoo.genoa::after {
+	content: "Genoa 🇮🇹";
+}
+.photoo.chianti::after {
+	content: "Chianti 🇮🇹";
+}
+.photoo.florence::after {
+	content: "Florence 🇮🇹";
+}
+.photoo.levanto::after {
+	content: "Levanto 🇮🇹";
+}
+.photoo.siena::after {
+	content: "Siena 🇮🇹";
+}
+
 /* 		Japan			*/
 .photoo.tokyo::after {
 	content: "Tokyo 🇯🇵";
