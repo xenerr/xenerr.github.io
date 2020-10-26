@@ -359,6 +359,12 @@ h2 {
 .photoo.cassis::after {
 	content: "Cassis 🇫🇷";
 }
+.photoo.drome::after {
+	content: "Drôme 🇫🇷";
+}
+.photoo.aubrac::after {
+	content: "Aubrac 🇫🇷";
+}
 /* 		USA			*/
 .photoo.palmsprings::after {
 	content: "Palm Springs 🇺🇸";
